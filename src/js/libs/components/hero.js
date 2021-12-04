@@ -4,29 +4,29 @@ export function initHero() {
             particlesJS("particles-js", {
                 "particles": {
                     "number": {
-                        "value": 50,
+                        "value": 80,
                         "density": {
                             "enable": true,
                             "value_area": 1000
                         }
                     },
                     "color": {
-                        "value": ["#5507fc"]
+                        "value": ["#161616"],
                     },
     
                     "shape": {
                         "type": "circle",
                         "stroke": {
-                            "width": 5,
-                            "color": "#5507fc"
+                            "width": 2,
+                            "color": "#c9c9c9"
                         },
                         "polygon": {
                             "nb_sides": 5
                         },
                         "image": {
-                            "src": "img/github.svg",
-                            "width": 100,
-                            "height": 100
+                            "src": "img/icons/mail.svg",
+                            "width": 500,
+                            "height": 500
                         }
                     },
                     "opacity": {
@@ -44,23 +44,23 @@ export function initHero() {
                         "random": true,
                         "anim": {
                             "enable": false,
-                            "speed": 40,
+                            "speed": 1,
                             "size_min": 0.1,
                             "sync": false
                         }
                     },
                     "line_linked": {
                         "enable": true,
-                        "distance": 120,
-                        "color": "#5507fc",
+                        "distance": 180,
+                        "color": "#c9c9c9",
                         "opacity": 0.2,
                         "width": 1.6
                     },
                     "move": {
                         "enable": true,
-                        "speed": 3,
-                        "direction": "top",
-                        "random": false,
+                        "speed": 1,
+                        "direction": "bottom",
+                        "random": true,
                         "straight": false,
                         "out_mode": "out",
                         "bounce": false,
